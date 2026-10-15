@@ -44,3 +44,9 @@ This notebook uss the arrival times obtained from the integration of PhaseNet an
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francescosdu/PhaseNet-DAS_workflow/blob/main/03_local_magnitude.ipynb)
 
 This notebook evaluates the local magnitude of the events converting strain rate records in displacement measurements (Trabattoni et al. 2023) and using a local magnitude scale for the Irpinia region (Bobbio et al. 2009). Local magnitude estimation and its uncertainty is compared against the value arising from the use of seismic stations from the conventional INFO network.
+
+## Funding
+This work is part of the TRANSFORM² project which aims to improve physical and digital infrastructure across Near-Fault Observatories (NFOs) in Europe.
+
+TRANSFORM² is funded by the European Union under project number 101188365 within the HORIZON-INFRA-2024-DEV-01-01 call.
+                                                                                                                            

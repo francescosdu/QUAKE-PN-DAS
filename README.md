@@ -1,4 +1,4 @@
-# DAS Single Station Workflow
+# DAS-tailored Workflow
 
 Workflow for detection and analysis of DAS data using DAS-specific phase pickers (PhaseNet-DAS, Zhu et al. 2023).
 The workflow integrates:  

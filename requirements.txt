@@ -1,0 +1,3 @@
+seisbench
+xdas @ git+https://github.com/xdas-dev/xdas.git
+GMMA @ git+https://github.com/AI4EPS/GaMMA.git

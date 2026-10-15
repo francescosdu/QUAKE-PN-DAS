@@ -1,0 +1,69 @@
+# =============================================================================
+# =============================================================================
+# Vel2Grid control file statements
+# =============================================================================
+#
+#
+
+# output filename root
+# (VGOUT <output file root>)
+# Layer 2DGrid
+VGOUT  ./NLLoc/model_punto_medio/layer
+# wave type
+# (VGTYPE wave_type (P, S))
+VGTYPE P
+
+# grid description
+# (GRID  num_grid_x  num_grid_y  num_grid_z
+#	orig_grid_x  orig_grid_y  orig_grid_z
+#	d_grid_x d_grid_y d_grid_z
+#       type
+#    (float) num_grid_x/y/z : number of nodes along x/y/z axis
+#    (float)    orig_grid_x : x location of grid origin (0,0,0) in km pos east
+#    (float)    orig_grid_y : y location of grid origin (0,0,0) in km pos north
+#    (float)    orig_grid_z : z location of grid origin (0,0,0) in km pos down
+#    (float)   d_grid_x/y/x : grid spacing along  x/y/z axis
+#    (char[])  type : (VELOCITY = km/s, VELOCITY_METERS = m/s,
+#		SLOWNESS = s/km,
+#		VEL2 = vel**2,
+#		SLOW2 = slow**2, SLOW_2_METERS = slow**2 ((s/m)**2),
+#		SLOW_LEN = slow*d_grid)
+#
+#
+# Layer 3DGrid (NOTE: num_grid_x must be = 2 for 2D grids)
+#VGGRID  161 111 43 -110.0 -60.0 -2.0  1.0 1.0 1.0  SLOW_LEN
+#VGGRID  2 205 73  0.0 0.0 -2.0  0.5 0.5 0.5  SLOW_LEN
+VGGRID  205 205 73  0.0 0.0 -2.0  0.5 0.5 0.5  SLOW_LEN
+# -----------------------------------------------------------------------------
+# velocity model description
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+#
+
+# Irpinia 1D velocity model Matrullo 22-06-2011 vp/vs 1.85
+LAYER   -1.5    3.25    0.000     1.75676  0.00   0.0   0.0
+LAYER    1.0    3.25    0.4900    1.75676  0.2829   0.0   0.0
+LAYER    4.0    4.72    0.2633    2.55135  0.1520   0.0   0.0
+LAYER    7.0    5.51    0.2300    2.97838  0.1238   0.0   0.0
+LAYER   10.0    6.20    0.1167    3.35135  0.0674   0.0   0.0
+LAYER   13.0    6.55    0.0300    3.54054  0.0173   0.0   0.0
+LAYER   18.0    6.70    0.0125    3.62162  0.0072   0.0   0.0
+LAYER   26.0    6.80    0.0077    3.67568  0.0044   0.0   0.0
+LAYER   32.5    6.85    0.0000    3.7027   0.0000   0.0   0.0
+
+
+# IRPINIA, Revision Group, Matrullo, since 2009 - vP/vS ratio of 1.85 used
+# model layers (LAYER depth, Vp_top, Vp_grad, Vs_top, Vs_grad, p_top, p_grad)
+
+#LAYER   -2.0   3.30   0.0     1.78378378  0.0     2.7 0.0
+#LAYER    0.0   3.30   0.0     1.78378378  0.0     2.7 0.0
+#LAYER    3.0   5.31   0.0     2.87027027  0.0     2.7 0.0
+#LAYER    9.0   6.74   0.0     3.64324324  0.0     2.7 0.0
+#LAYER   15.0   7.24   0.0     3.91351351  0.0     2.7 0.0
+#LAYER   35.0   7.26   0.0     3.92432432  0.0     2.7 0.0
+										
+# =============================================================================
+# =============================================================================
+# END of Vel2Grid control file statements
+# =============================================================================

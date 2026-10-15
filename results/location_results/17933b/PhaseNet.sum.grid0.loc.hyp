@@ -1,0 +1,18 @@
+NLLOC "./results/location_results/17933b/PhaseNet.19251225.145453.grid0" "LOCATED" "Location completed."
+SIGNATURE "Phasenet   obs:./results/obs/17933b_picks.hyp   NLLoc:v7.00.00(27Oct2017)  run:15Oct2026 12h16m02"
+COMMENT ""
+GRID  205 205 73  0 0 -2  0.5 0.5 0.5 PROB_DENSITY
+SEARCH OCTREE nInitial 4000 nEvaluated 100032 smallestNodeSide 0.079687/0.079687/0.057031 oct_tree_integral 4.826675e-02 scatter_volume 4.826675e-02
+HYPOCENTER  x 59.8055 y 42.1945 z 6.12695  OT 51.4956  ix -1 iy -1 iz -1 MAXIMUM_LIKELIHOOD
+GEOGRAPHIC  OT 1925 12 25  14 54 51.495633  Lat 40.655085 Long 15.632069 Depth 6.126953
+QUALITY  Pmax 1.85736e+1976 MFmin 574.733 MFmax 574.734 RMS 0.0905163 Nphs 364 Gap 180.673 Dist 1.45365 Mamp -9.90 0 Mdur -9.90 0
+VPVSRATIO  VpVsRatio 1.78512  Npair 152  Diff 0.87
+STATISTICS  ExpectX 59.7897 Y 42.2195 Z 6.11882  CovXX 0.0575887 XY 0.0518648 XZ -0.0187318 YY 0.0581046 YZ -0.0201715 ZZ 0.0219501 EllAz1  316.499 Dip1  6.16881 Len1  0.144053 Az2  246.87 Dip2  -72.7506 Len2  0.223424 Len3  6.443691e-01
+STAT_GEOG  ExpectLat 40.655311 Long 15.631886 Depth 6.118816
+TRANSFORM  LAMBERT RefEllipsoid Clarke-1880  LatOrig 40.278100  LongOrig 14.926100  FirstStdParal 43.199300  SecondStdParal 44.996100  RotCW 0.000000
+QML_OriginQuality  assocPhCt 364  usedPhCt 364  assocStaCt -1  usedStaCt 212  depthPhCt -1  stdErr 0.0905163  azGap 180.673  secAzGap 180.963  gtLevel -  minDist 1.45365 maxDist 6.63547 medDist 2.3127
+QML_OriginUncertainty  horUnc -1  minHorUnc 0.11729  maxHorUnc 0.502332  azMaxHorUnc 44.8575
+QML_ConfidenceEllipsoid  semiMajorAxisLength 0.644369  semiMinorAxisLength 0.144053  semiIntermediateAxisLength 0.223424  majorAxisPlunge -16.044  majorAxisAzimuth 44.7174  majorAxisRotation 172.435
+FOCALMECH  Hyp  40.655085 15.632069 6.126953 Mech  0 0 0 mf  0 nObs 0
+END_NLLOC
+

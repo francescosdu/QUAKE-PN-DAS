@@ -13,6 +13,8 @@ Phase picking can be performed selecting the original PhaseNet-DAS model (Zhu et
 We suggest using a python version >= 3.11. Install the Python dependencies with:
 
 ```bash
+git clone https://github.com/francescosdu/QUAKE-PN-DAS.git  
+cd QUAKE-PN-DAS  
 pip install -r requirements.txt
 ```
 

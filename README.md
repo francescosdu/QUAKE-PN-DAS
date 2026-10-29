@@ -10,9 +10,7 @@ Phase picking can be performed selecting the original PhaseNet-DAS model (Zhu et
 
 ## Requirements
 
-We suggest using a python version > 3.11.
-
-Install the Python dependencies with:
+We suggest using a python version > 3.11. Install the Python dependencies with:
 
 ```bash
 pip install -r requirements.txt

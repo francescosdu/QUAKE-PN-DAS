@@ -6,7 +6,7 @@ The workflow integrates:
 - **GaMMa** (Zhu et al. 2022) for performing **phase assocation**  
 - **NLLoc** (Lomax et al. 2000) for determining **hypocentral location**  
 
-Phase picking can be performed selecting the original PhaseNet-DAS model (Zhu et al. 2023), a retrained model using earthquakes recorded in Irpinia region (Scotto di Uccio & Hysa, 2026) or a model obtained from trasfer learning of the weights of the original model (Scotto di Uccio & Hysa, 2026)
+Phase picking can be performed selecting the original PhaseNet-DAS model (Zhu et al. 2023), a retrained model using earthquakes recorded in Irpinia region (Scotto di Uccio & Hysa, 2026, https://zenodo.org/records/23696483) or a model obtained from trasfer learning of the weights of the original model (Scotto di Uccio & Hysa, 2026,https://zenodo.org/records/23696483)
 
 ## Requirements
 
